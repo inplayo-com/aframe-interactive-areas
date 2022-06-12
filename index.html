@@ -73,7 +73,7 @@
                 material="color: white; opacity: 0.6; shader: phong; side: double;"
                 geometry="primitive: box; width: 8; height: 0.1; depth: 8;" 
                 
-                aabb-collider="objects: #rig;"
+                aabb-collider="objects: [camera];"
                 event-set__hitstart="material.opacity: 0.1; material.color: orange"
                 event-set__hitend="material.opacity: 0.6; material.color: white"
 
@@ -95,13 +95,13 @@
         </a-assets>
 
         <!-- camera & controls -->
-        <a-box id="rig" movement-controls="constrainToNavMesh: true" data-aabb-collider-dynamic="true">
-            <a-entity camera position="0 1.6 0" look-controls>
-            </a-entity>
+        <a-entity id="rig" movement-controls="constrainToNavMesh: true">
+            <a-box camera position="0 1.6 0" look-controls data-aabb-collider-dynamic="true">
+            </a-box>
             <a-entity id="leftHand" laser-controls="hand: left" raycaster="far: 100; objects: .raycastable;"></a-entity>
             <a-entity id="rightHand" laser-controls="hand: right" raycaster="far: 100; objects: .raycastable;">
             </a-entity>
-        </a-box>
+        </a-entity>
 
         <!-- text description: entrance -->
         <a-entity id="description" position="0 6 -6">
