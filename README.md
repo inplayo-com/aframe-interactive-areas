@@ -3,6 +3,25 @@
 
 # A-Frame Interactive Areas
 
+### Demo
+
+#### Webpage
+
+[https://demo.inplayo.com/aframe/interactive-areas/](https://demo.inplayo.com/aframe/interactive-areas/)
+
+#### Video
+
+[![Demo Video](https://img.youtube.com/vi/fj2G9h6pHuM/0.jpg)](https://youtu.be/fj2G9h6pHuM "Demo Video")
+
+
+### Demo using
+* A-Frame 1.3.0
+* Oculus Quest 2
+* Google Chrome Version 102.0.5005.61 (Mobile + Desktop)
+
+
+## General
+
 **Interactive areas** - A-Frame scene zones that are sensitive to the appearance of the user on them. When a user enters an area, an event occurs for the area component and all its subcomponents. Interface is made as representation of A-Frame components linking ability, on declarative level.
 
 ## Core dependencies
@@ -42,21 +61,6 @@ This is demo part using mixins, **#area** node is area container, same as area. 
 </a-mixin>
 ```
 
-### Demo
-
-#### Webpage
-
-[https://demo.inplayo.com/aframe/interactive-areas/](https://demo.inplayo.com/aframe/interactive-areas/)
-
-#### Video
-
-[![Demo Video](https://img.youtube.com/vi/fj2G9h6pHuM/0.jpg)](https://youtu.be/fj2G9h6pHuM "Demo Video")
-
-
-### Demo using
-* A-Frame 1.3.0
-* Oculus Quest 2
-* Google Chrome Version 102.0.5005.61 (Mobile + Desktop)
 ## Badges
 
 [<img alt="Deployed with FTP Deploy Action" src="https://img.shields.io/badge/Deployed With-FTP DEPLOY ACTION-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/FTP-Deploy-Action)
